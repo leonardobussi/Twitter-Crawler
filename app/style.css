@@ -7,19 +7,15 @@ body {
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
-  color: #4dc3ff;
+  color: #000000;
   text-align: center;
 }
 
 .inputField {
-  background: transparent;
-  border: 2px solid #4dc3ff;
-  border-left: 2px solid #4dc3ff;
 
-  font-size: 36px;
+  font-size: 20px;
   padding: 20px;
   width: 50%;
-  transition: background-color 1s, border-left 1s;
 }
 
 form {
@@ -28,8 +24,8 @@ form {
 
 label {
   font-family: 'Montserrate', sans-serif;
-  font-size: 36px;
-  color: #4dc3ff;
+  font-size: 20px;
+  color: #000000;
   padding: 10px;
 }
 
@@ -40,23 +36,20 @@ label {
 }
 
 .button {
-  font-size: 36px;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
   color: white;
 
-  border: solid #4dc3ff;
+  border: none;
   border-radius: 5px;
-  background-color: #4dc3ff;
+  background-color: #ff0f0f;
   padding: 15px;
 
   margin-left: 40px;
 
-  transition: background 1s, color 1s;
 }
 
 .button:hover {
-  color: #4dc3ff;
-  background-color: transparent;
+  background-color: #ccc;
 }
 
 @media (max-width: 580px) {
@@ -68,7 +61,7 @@ label {
 .tweet {
   border: solid;
   border-radius: 5px;
-  border-color: #4dc3ff;
+  border-color: #000000;
 
   width: 75%;
   margin: 0 auto;
@@ -85,16 +78,18 @@ a:link,
 a:visited {
   text-decoration: none;
   background-color: transparent;
-  color: #4dc3ff;
+  color: #040607;
 }
-
+a:hover{
+  color: crimson;
+}
 #header {
   text-decoration: none;
 }
 
 footer {
   font-family: 'Montserrat';
-  color: #4dc3ff;
+  color: #f30c1f;
   font-size: 20px;
   padding-top: 10%;
   text-align: center;

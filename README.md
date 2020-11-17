@@ -1,16 +1,17 @@
 # Twitter Crawler
 
-Demo the app here: [Twitter Crawler](http://jeffreyxchan.me/Twitter-Crawler/ "Twitter Crawler")
 
-## Description
-A web app built with **Node.js**, **Express.js**, and **React.js** that takes in a valid Twitter username and uses the **Twitter API** to display the last 25 tweets of that Twitter user.
+## Descrição
+Um aplicativo da web desenvolvido com **Node.js**, **Express.js** e **React.js** que obtém um nome de usuário do Twitter válido e usa a **API do Twitter** para exibir os últimos 25 tweets desse usuário do Twitter.
 
-## Setting up the Development Environment
+## Configurando o Ambiente de Desenvolvimento
 
-Run `npm install` to install this project's dependencies.  
-Run `npm run development` to start webpack-dev-server.  
-Visit `localhost:8080` to view the project.
+`npm install` para instalar as dependências deste projeto.  
+`npm run development` para iniciar webpack-dev-server.  
+`localhost:8080` para visualizar.
 
-**You can also:**  
-Run `node server.js` to start the local express server at `localhost:3000`.  
-Point the application to the the express server to use the local API.  
+**Você também pode:**  
+`node server.js` para iniciar o servidor express local em `localhost:3000`.  
+Aponte o aplicativo para o servidor express para usar a API local.
+
+exemplo: `localhost:3000/search/dev_bussi`

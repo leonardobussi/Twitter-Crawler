@@ -1,12 +1,13 @@
 {
   "name": "twitter-crawler",
   "version": "1.0.0",
-  "description": "Twitter application that displays a user's last 25 tweets.",
+  "description": "crawler para buscar tweets",
   "main": "server.js",
   "scripts": {
     "build": "webpack -p",
     "development": "webpack-dev-server",
-    "start": "node server.js"
+    "test": "node server.js",
+    "start": "webpack-dev-server"
   },
   "babel": {
     "presets": [
@@ -14,7 +15,7 @@
       "react"
     ]
   },
-  "author": "jeffreyxchan",
+  "author": "leonardobussi",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.16.2",

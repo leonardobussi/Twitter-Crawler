@@ -33,12 +33,12 @@ class TweetSearchForm extends React.Component {
         <input
           className="inputField"
           type="text"
-          placeholder="username"
+          placeholder="nome de usuario"
           value={this.state.username}
           onChange={this.handleUsernameChange}
           autoFocus
         />
-        <input className="button" type="submit" value="Crawl" />
+        <input className="button" type="submit" value="Procurar" />
       </form>
     )
   }
